@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    transition: 500ms all;
+}
+
+.black{
+    transition: 500ms all;
+    height: 13vh;
+    background-color: rgba(38,50,70,0.9);
+}
+
+.container__logo {
+    width: 33.33333333%;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 33.33333333%;
+}
+
+.facebook {
+    height: 5vh;
+    width: 5vh;
+}
+
+.container__links {
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+
+
+.link-donar {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 15px black;
+}
+
+.link-inicio {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 15px black;
+}
+
+.link-acerca {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 15px black;
+}
+
+.link-img {
+    text-decoration: none;
+    color: white;
+}
+
+.link-noticias {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 15px black;
+}
+
+.container__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.link-inicio:hover::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 38px;
+    background-color: #dd9933;
+}
+
+.link-acerca:hover::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 75px;
+    background-color: #dd9933;
+}
+
+.link-donar:hover::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 43px;
+    background-color: #dd9933;
+}
+
+.link-noticias:hover::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 57px;
+background-color: #dd9933;
+}

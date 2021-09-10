@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.donar{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    margin-top: 200px;
+    color: white;
+    text-decoration: none;
+    background-color: #dd9933;
+    padding: 13px 60px;
+    border-radius: 3px;
+    transition: all 500ms;
+    }
+
+.donar:hover{
+    background-color: rgba(255,255,255,0);
+    border: 1px solid #dd9933  ;
+    color: #dd9933;
+}
+
+.main{
+    overflow: hidden;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.slider{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+
+.container__img{
+display: flex;
+grid-column: 1/2;
+grid-row: 1/2;
+}
+
+
+
+.img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.slidertitle{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 57px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.sliderdescription{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 30px;
+    margin-top: 100px;
+    color: white;
+}
+
+
+
+
+
+

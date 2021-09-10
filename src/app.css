@@ -1,0 +1,22 @@
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #dd9933;
+    border-radius: 5px;
+}
+
+
+.loadoff{
+    display:none;
+}
+
+.load{
+    position: absolute;
+}
+
+
+
